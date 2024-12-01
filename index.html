@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Document</title>
+  <style>
+    body {
+             font-family: 'Playfair Display', serif;
+             color: #333;
+         }
+         .navbar {
+             font-size: 14px;
+             background-color: lightgrey;
+             position: fixed;
+             width: 100%;
+             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+         }
+         .navbar-brand {
+             font-size: 24px;
+         }
+         .hero-image {
+             width: 100%;
+             height: auto;
+         }
+         .section-title {
+             font-size: 36px;
+             margin-bottom: 20px;
+         }
+         .menu-item {
+             font-size: 18px;
+             margin-bottom: 10px;
+         }
+         .menu-price {
+             float: right;
+         }
+         .contact-form input, .contact-form textarea {
+             margin-bottom: 10px;
+         }
+         .footer {
+             text-align: center;
+             padding: 20px 0;
+             font-size: 14px;
+         }
+   </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+     <a class="navbar-brand" href="#">
+      Gourmet au Catering
+     </a>
+     <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+      <span class="navbar-toggler-icon">
+      </span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+       <li class="nav-item">
+        <a class="nav-link" href="#">
+         About
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">
+         Menu
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </div>
+   </nav>
+   <div class=" text-center ">
+    <img alt="A gourmet burger with various toppings on a white plate" class="hero-image" height="600" src="image/hamburger.jpg" width="1200"/>
+    <h1 class="mt-4">
+     Le Catering
+    </h1>
+   </div>
+   <div class="container my-5">
+    <div class="row">
+     <div class=" col-md-6">
+      <img alt="Plates with slices of bread and forks on a marble surface" class="img-fluid" height="300" src="image/tablesetting2.jpg" width="600"/>
+     </div>
+     <div class="col-md-6">
+      <h2 class="section-title">
+       About Catering
+      </h2>
+      <p>
+       <em>
+        Tradition since 1889
+       </em>
+      </p>
+      <p>
+       The Catering was founded in blahbla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. We only use
+       <strong>
+        seasonal ingredients
+       </strong>
+       .
+      </p>
+      <p>
+       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+     </div>
+    </div>
+   </div>
+   <hr class="container">
+   <div class="container my-5">
+    <h2 class="section-title text-center">
+     Our Menu
+    </h2>
+    <div class="row">
+     <div class="col-md-6">
+      <p class="menu-item">
+       Bread Basket
+      </p>
+      <p class="menu-description">
+       Assortment of fresh baked fruit breads and muffins 5.50
+      </p>
+      <p class="menu-item">
+       Honey Almond Granola with Fruits
+      </p>
+      <p class="menu-description">
+       Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+      </p>
+      <p class="menu-item">
+       Belgian Waffle
+      </p>
+      <p class="menu-description">
+       Vanilla flavored batter with malted flour 7.50
+      </p>
+      <p class="menu-item">
+       Scrambled eggs
+      </p>
+      <p class="menu-description">
+       Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+      </p>
+      <p class="menu-item">
+       Blueberry Pancakes
+      </p>
+      <p class="menu-description">
+       With syrup, butter and lots of berries 8.50
+      </p>
+     </div>
+     <div class="col-md-6">
+      <img alt="A plate with various gourmet dishes including vegetables and sauces" class="img-fluid" height="300" src="image/tablesetting.jpg" width="600"/>
+     </div>
+    </div>
+   </div>
+   <hr class="container">
+   <div class="container my-5">
+    <h2 class="section-title text-center">
+     Contact
+    </h2>
+    <p class="text-center">
+     We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste. Do not hesitate to contact us.
+    </p>
+    <p class="text-center">
+     <strong>
+      Catering Service, 42nd Living St, 43043 New York, NY
+     </strong>
+    </p>
+    <p class="text-center">
+     You can also contact us by phone 0151 123 4567 or email abdo@gmail.com, or you can send us a message here:
+    </p>
+    <form class="contact-form">
+     <div class="row">
+      <div class="col-md-6">
+       <input class="form-control" placeholder="Name" type="text"/>
+      </div>
+      <div class="col-md-6">
+       <input class="form-control" placeholder="How many people" type="text"/>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-md-6">
+       <input class="form-control" type="datetime-local"/>
+      </div>
+      <div class="col-md-6">
+       <input class="form-control" placeholder="Message \ Special requirements" type="text"/>
+      </div>
+     </div>
+     <div class="text-center mt-3">
+      <button class="btn btn-primary" type="submit">
+       SEND MESSAGE
+      </button>
+     </div>
+    </form>
+   </div>
+   <footer class="footer">
+    <p>
+     Powered by <b style="cursor: pointer;">Abdulrahman</b>
+    </p>
+   </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
